@@ -8,6 +8,7 @@
 * The only exception for const is it allows you to reassign object properties.
 
 ## Examples of the Above
+### Issue with Var
 ```javascript
 //ES5 Syntax
 var name = 'AcAntellAno'
@@ -20,6 +21,7 @@ console.log(name)
 * The above snippet of code shows one common issue with just using var.
 * Having 2 variables with the same name can become a problem.
 
+### Var keyword is only function scoped
 ```javascript
 //ES5 syntax
 function printName(){
