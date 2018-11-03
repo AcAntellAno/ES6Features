@@ -13,5 +13,5 @@
 var name = 'AcAntellAno'
 var name = 'GitHub'
 console.log(name)
-//will output the name Andy
+//will output the name GitHub
 //ES5 var allows you to have two variables with the same name
