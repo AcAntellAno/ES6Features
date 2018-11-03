@@ -40,3 +40,21 @@ if(lastName = 'Javascript'){
 //since var is only function scoped, we can access it outside of its block
 console.log(newLastName) 
 ```
+
+### Blocked Scope
+* Let keyword is block scoped, but what is a block
+* Anything surrounded by {} is considered inside a block, so for example if we look at our old code:
+```javascript
+function printName(){ //block starts here
+  var firstName = 'Jose'
+  console.log(firstName)
+} //block ends here
+
+var lastName = 'Javascript'
+if(lastName = 'Javascript'){ //block starts here
+  var newLastName = 'ES5'
+  console.log(newLastName)
+} //block ends here
+```
+
+* The above code shows what we mean by block.
