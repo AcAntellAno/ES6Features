@@ -58,3 +58,13 @@ if(lastName = 'Javascript'){ //block starts here
 ```
 
 * The above code shows what we mean by block.
+
+### let and const are block scoped
+```javascript
+var lastName = 'Javascript'
+if(lastName = 'Javascript'){ //block starts here
+  let newLastName = 'ES5'
+  console.log(newLastName)
+} //block ends here
+console.log(newLastName) //error because that variables does not exist, only within the block scope
+```
