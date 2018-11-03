@@ -15,3 +15,26 @@ var name = 'GitHub'
 console.log(name)
 //will output the name GitHub
 //ES5 var allows you to have two variables with the same name
+```
+
+* The above snippet of code shows one common issue with just using var.
+* Having 2 variables with the same name can become a problem.
+
+```javascript
+//ES5 syntax
+function printName(){
+  var firstName = 'Jose'
+  console.log(firstName)
+}
+
+//name only exists within function scope.
+
+var lastName = 'Javascript'
+if(lastName = 'Javascript'){
+  var newLastName = 'ES5'
+  console.log(newLastName)
+}
+
+//since var is only function scoped, we can access it outside of its block
+console.log(newLastName) 
+```
