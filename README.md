@@ -7,3 +7,11 @@
 * The difference between const and let is that const value cannot be updated.
 * The only exception for const is it allows you to reassign object properties.
 
+## Examples of the Above
+```javascript
+//ES5 Syntax
+var name = 'AcAntellAno'
+var name = 'GitHub'
+console.log(name)
+//will output the name Andy
+//ES5 var allows you to have two variables with the same name
