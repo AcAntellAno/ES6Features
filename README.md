@@ -68,3 +68,8 @@ if(lastName = 'Javascript'){ //block starts here
 } //block ends here
 console.log(newLastName) //error because that variables does not exist, only within the block scope
 ```
+
+### Creating Functions using fat arrow =>
+```javascript
+//function using es6
+```
