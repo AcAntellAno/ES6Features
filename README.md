@@ -72,4 +72,9 @@ console.log(newLastName) //error because that variables does not exist, only wit
 ### Creating Functions using fat arrow =>
 ```javascript
 //function using es6
+let mirror = value => value;
+// equivalent to:
+let mirror = function(value) {
+  return value;
+};
 ```
